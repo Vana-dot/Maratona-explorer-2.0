@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    text-align: center;
+}
+.foto{
+    width: 120px;
+    height: 120px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.social_redes{
+    width: 400px;
+}
+.social_redes li{
+    background-color: rgb(43, 107, 226);
+    text-transform: uppercase;
+    font-size: 1rem;
+    list-style: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+a {
+    text-decoration: none;
+    color: beige;
+
+}
+.social_redes li:hover{
+    background-color: blueviolet;
+}
